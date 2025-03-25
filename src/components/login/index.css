@@ -1,19 +1,19 @@
   
-  .width-100 {
+.width-100 {
     width: 100%;
-  }
+}
 
-  .imagefondoizq{
+.imagefondoizq{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  .containerDer{
+.containerDer{
     display: flex;
-  }
+}
   
-  .recuadro2 {
+.recuadro2 {
     background-color: white; 
     width: 100%;
     margin-left: auto;
@@ -25,76 +25,76 @@
     color: black; 
     border: 2px solid #39A900;
 }
-  
- .linea-horizontal{
+
+.linea-horizontal{
   height: 4px;
   width: 90%;
   background-color:#39A900;
   
- }
+}
   
-  .btn {
+.btn {
     color: rgb(255, 255, 255);
     background: #39A900;
     border-radius: 10px;
     padding-left: 50px;
     padding-right: 50px;
-  }
+}
   
-  .h1 {
+.h1 {
     color: #39A900;
     display: flex;
     font-size: 500%;
-  }
+}
 
 .imageicon{
-  bottom: 0;
-  right: 0;
-  position: fixed;
+    bottom: 0;
+    right: 0;
+    position: fixed;
 }
 
 .linea-vertical{
-  width: 0.5%; 
-  height: 400px;
-  background-color: #39A900; 
-  margin: 0 auto; 
+    width: 0.5%; 
+    height: 400px;
+    background-color: #39A900; 
+    margin: 0 auto; 
 }
 
 
 .Elegir_rol {
-  color: #39A900;
+    color: #39A900;
 }
 
 .dropdown-toggle {
-  background-color: white; 
-  border-color: gainsboro;
-  border-style: double;
-  color: #39A900; 
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
+    background-color: white; 
+    border-color: gainsboro;
+    border-style: double;
+    color: #39A900; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .dropdown-toggle::after {
-  border-top-color: #39A900; 
-  margin-left: 10px; 
+    border-top-color: #39A900; 
+    margin-left: 10px; 
 }
 
 .dropdown-menu {
-  border-radius: 5px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  border: 1px solid #e0e0e0; 
-  margin-top: 5px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 1px solid #e0e0e0; 
+    margin-top: 5px; 
 }
 
 .dropdown-item:hover {
-  background-color: #39A900;
-  color: white; 
+    background-color: #39A900;
+    color: white; 
 }
 
 
 .dropdown-item {
-  color: #333; 
-  padding: 8px 16px; 
-  transition: background-color 0.3s ease, color 0.3s ease; 
+    color: #333; 
+    padding: 8px 16px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
