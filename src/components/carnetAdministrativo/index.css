@@ -88,7 +88,20 @@
     border-radius: 4px;
     font-size: 1rem;
 }
+.btn-Exit {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
 
+.btn-Exit:hover {
+    background-color: #c82333;
+}
   /* Responsive adjustments */
 @media (max-width: 768px) {
     .carnet-card {

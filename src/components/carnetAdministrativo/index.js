@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // Importar useNavigate
 import './index.css';
 
 const CarnetAdministrativo = () => {
@@ -11,6 +12,7 @@ const CarnetAdministrativo = () => {
         fechaNacimiento: '',
         foto: null
     });
+    const navigate = useNavigate(); // Inicializar useNavigate
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -32,6 +34,10 @@ const CarnetAdministrativo = () => {
         };
         reader.readAsDataURL(file);
         }
+    };
+
+    const handleLogout = () => {
+        navigate('/'); // Redirigir al login
     };
 
     return (
@@ -110,6 +116,16 @@ const CarnetAdministrativo = () => {
             </div>
             </div>
             
+            {/* Botón de Cerrar Sesión */}
+            <div className="text-center mt-3">
+                <button 
+                    onClick={handleLogout}
+                    className="btn-logout"
+                >
+                    Cerrar sesión
+                </button>
+            </div>
+
             <div className="carnet-footer">
             <p>SENA</p>
             </div>

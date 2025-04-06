@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // Importar useNavigate
 import './index.css';
 
 // Importar componentes de typesCarnets
@@ -8,6 +9,7 @@ import Administrativos from './typesCarnets/administrativos';
 
 const MenuColumna = () => {
   const [activeItem, setActiveItem] = useState(null);
+  const navigate = useNavigate(); // Inicializar useNavigate
 
   const menuItems = [
     { 
@@ -36,6 +38,10 @@ const MenuColumna = () => {
     }
   ];
 
+  const handleLogout = () => {
+    navigate('/'); // Redirigir al login
+  };
+
   const renderContent = () => {
     if (activeItem === null) {
       return (
@@ -59,6 +65,12 @@ const MenuColumna = () => {
     <div className="menu-container">
       <div className="user-info">
         <span className="user-name">Nombre admin</span>
+        <button 
+          onClick={handleLogout}
+          className="btn-logout-admin"
+        >
+          Cerrar sesión
+        </button>
       </div>
       
       <div className="menu-title">HOME</div>
