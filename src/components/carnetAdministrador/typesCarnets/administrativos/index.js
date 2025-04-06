@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 
-const Carnet = () => {
+const Administrativos = () => {
     const [formData, setFormData] = useState({
         nombre: '',
         apellido: '',
@@ -61,14 +61,7 @@ const Carnet = () => {
 
                 <div className="col-md-6">
                 <div className="form-group">
-                    <label>Rol:</label>
-                    <input 
-                    type="text" 
-                    name="rol" 
-                    value={formData.rol} 
-                    onChange={handleChange} 
-                    className="form-control"
-                    />
+                <label>Rol: Administrativos </label>
                 </div>
                 </div>
                 
@@ -124,4 +117,4 @@ const Carnet = () => {
     );
 };
 
-export default Carnet;
+export default Administrativos;
