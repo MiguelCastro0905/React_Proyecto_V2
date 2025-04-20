@@ -119,9 +119,8 @@ const CarnetInstructor = () => {
                 <div className="text-center mt-3">
                     <button 
                         onClick={handleLogout}
-                        className="btn-logout"
-                    >
-                        Cerrar sesión
+                        className="btn-logout exit-instructor">
+                        Cerrar
                     </button>
                 </div>
                 

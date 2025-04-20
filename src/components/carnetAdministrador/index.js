@@ -65,12 +65,7 @@ const MenuColumna = () => {
     <div className="menu-container">
       <div className="user-info">
         <span className="user-name">Nombre admin</span>
-        <button 
-          onClick={handleLogout}
-          className="btn-logout-admin"
-        >
-          Cerrar sesión
-        </button>
+        
       </div>
       
       <div className="menu-title">HOME</div>
@@ -91,6 +86,15 @@ const MenuColumna = () => {
       <div className="content-panel">
         {renderContent()}
       </div>
+      
+      <div className="text-center mt-3">
+                    <button 
+                        onClick={handleLogout}
+                        className="btn-logout exit-Administrador"
+                    >
+                        Cerrar
+                </button>
+        </div>
     </div>
   );
 };

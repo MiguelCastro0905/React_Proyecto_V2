@@ -116,16 +116,15 @@ const CarnetAdministrativo = () => {
             </div>
             </div>
             
-            {/* Botón de Cerrar Sesión */}
+            {/* Added logout button */}
             <div className="text-center mt-3">
-                <button 
-                    onClick={handleLogout}
-                    className="btn-logout"
-                >
-                    Cerrar sesión
+                    <button 
+                        onClick={handleLogout}
+                        className="btn-logout exit-Administrativos"
+                    >
+                        Cerrar
                 </button>
-            </div>
-
+                </div>
             <div className="carnet-footer">
             <p>SENA</p>
             </div>
