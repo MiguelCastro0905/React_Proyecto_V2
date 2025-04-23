@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importar useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import './index.css';
 
 const CarnetAprendiz = () => {
@@ -12,7 +12,7 @@ const CarnetAprendiz = () => {
         fechaNacimiento: '',
         foto: null
     });
-    const navigate = useNavigate(); // Inicializar useNavigate
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -37,7 +37,7 @@ const CarnetAprendiz = () => {
     };
 
     const handleLogout = () => {
-        navigate('/'); // Redirigir al login
+        navigate('/');
     };
 
     return (
@@ -64,7 +64,6 @@ const CarnetAprendiz = () => {
                                 />
                             </div>
                         </div>
-
                         <div className="col-md-6">
                             <div className="form-group">
                                 <label>Rol: Aprendiz</label>
@@ -114,8 +113,6 @@ const CarnetAprendiz = () => {
                         </div>
                     </div>
                 </div>
-                
-                {/* Botón de Cerrar Sesión */}
                 <div className="text-center">
                     <button 
                         className="btn-Exit btn-primary exit-Aprendiz"

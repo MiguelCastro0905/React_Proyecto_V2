@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importar useNavigate
+import { useNavigate } from 'react-router-dom';
 import './index.css';
 
 const CarnetAdministrativo = () => {
@@ -12,7 +12,7 @@ const CarnetAdministrativo = () => {
         fechaNacimiento: '',
         foto: null
     });
-    const navigate = useNavigate(); // Inicializar useNavigate
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         const { name, value } = e.target;

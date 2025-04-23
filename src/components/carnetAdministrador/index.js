@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importar useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import './index.css';
 
-// Importar componentes de typesCarnets
 import Aprendices from './typesCarnets/aprendiz';
 import Instructores from './typesCarnets/instructor';
 import Administrativos from './typesCarnets/administrativos';
 
 const MenuColumna = () => {
   const [activeItem, setActiveItem] = useState(null);
-  const navigate = useNavigate(); // Inicializar useNavigate
+  const navigate = useNavigate();
 
   const menuItems = [
     { 
@@ -39,7 +38,7 @@ const MenuColumna = () => {
   ];
 
   const handleLogout = () => {
-    navigate('/'); // Redirigir al login
+    navigate('/'); 
   };
 
   const renderContent = () => {

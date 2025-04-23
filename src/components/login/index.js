@@ -35,7 +35,6 @@ const Login = () => {
             <div className="cuadro-inferior1">
                 <div className="recuadro"></div>
             </div>
-            {/* Contenedor principal para centrar el contenido */}
             <div className="login-container">
                 <div className="container2">
                     <div className="row">
@@ -43,7 +42,6 @@ const Login = () => {
                             <div className="recuadroDer p-4">
                                 <h2 className="text-center">LOGIN</h2>
                                 <div className="recuadro2 p-3">
-                                    {/* Dropdown para seleccionar el rol */}
                                     <div className="row">
                                         <div className="col-sm-12 mb-3">
                                             <div className="dropdown">
@@ -97,7 +95,6 @@ const Login = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* Campo de correo institucional */}
                                     <div className="row">
                                         <div className="col-sm-12 mb-3">
                                             <div className="form-group">
@@ -105,7 +102,6 @@ const Login = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* Campo de contraseña */}
                                     <div className="row">
                                         <div className="col-sm-12 mb-3">
                                             <div className="form-group">
@@ -113,7 +109,6 @@ const Login = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* Botón de iniciar sesión */}
                                     <div className="text-center">
                                         <button
                                             type="button"
@@ -128,7 +123,6 @@ const Login = () => {
                         </div>
                     </div>
                 </div>
-                {/* Imagen añadida aquí */}
                 <div className="logo-container">
                     <img src={image1} alt="Logo" className="login-logo" />
                 </div>

@@ -37,7 +37,7 @@ const CarnetInstructor = () => {
     };
 
     const handleLogout = () => {
-        navigate('/'); // Redirect to login page
+        navigate('/'); 
     };
 
     return (
