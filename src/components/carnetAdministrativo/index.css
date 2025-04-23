@@ -103,7 +103,6 @@
     background-color: blue;
 }
 
-  /* Responsive adjustments */
 @media (max-width: 768px) {
     .carnet-card {
     max-width: 90%;
